@@ -6,7 +6,7 @@ layout: default0
 <div class="article">
   <div class="well">
     <h1 style="color: #ee4444"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.tag }}·{{ post.label }}</a></h1>
-    <h5>{{ post.author }} | {{ post.date | date: "%-d %b %Y" }}</h5>
+    <h5>{{ post.date | date: "%-d %b %Y" }}</h5>
     {% if site.comments and post.comments %}
     {% if site.disqus != '' %}
     <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread"
